@@ -7,6 +7,7 @@ router.get('/login', (req, res) => res.render('login'))
 router.get('/registro', (req, res) => res.render('registro'))
 router.get('/dashboard', (req, res) => res.render('dashboard'))
 router.get('/pedir/seleccion_zona', (req, res) => res.render('seleccion_zona'))
+router.get('/pedir/seleccion_zona/colas_en_zona', (req, res) => res.render('colas_en_zona'))
 router.get('/profile', (req, res) => {
     // Dumbp data
     req.user = {
